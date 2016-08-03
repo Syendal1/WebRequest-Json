@@ -12,6 +12,7 @@
 		E3D695461D51B8B100DD498D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D695441D51B8B100DD498D /* Main.storyboard */; };
 		E3D695481D51B8B100DD498D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D695471D51B8B100DD498D /* Assets.xcassets */; };
 		E3D6954B1D51B8B100DD498D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D695491D51B8B100DD498D /* LaunchScreen.storyboard */; };
+		E3D695541D5277EA00DD498D /* SWPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D695531D5277EA00DD498D /* SWPerson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E3D695471D51B8B100DD498D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3D6954A1D51B8B100DD498D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D6954C1D51B8B100DD498D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D695531D5277EA00DD498D /* SWPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWPerson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E3D6953F1D51B8B000DD498D /* WebRequestTrial */ = {
 			isa = PBXGroup;
 			children = (
+				E3D695521D52765200DD498D /* Model */,
 				E3D695401D51B8B000DD498D /* AppDelegate.swift */,
 				E3D695421D51B8B000DD498D /* ViewController.swift */,
 				E3D695441D51B8B100DD498D /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				E3D6954C1D51B8B100DD498D /* Info.plist */,
 			);
 			path = WebRequestTrial;
+			sourceTree = "<group>";
+		};
+		E3D695521D52765200DD498D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3D695531D5277EA00DD498D /* SWPerson.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				E3D695431D51B8B000DD498D /* ViewController.swift in Sources */,
 				E3D695411D51B8B000DD498D /* AppDelegate.swift in Sources */,
+				E3D695541D5277EA00DD498D /* SWPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
